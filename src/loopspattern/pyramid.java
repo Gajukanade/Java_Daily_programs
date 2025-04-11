@@ -1,0 +1,24 @@
+package loopspattern;
+
+public class pyramid {
+
+	public static void main(String[] args) {
+		int rows = 5;
+		for(int i=1;i<=rows;i++) {
+			for(int j = i;j<rows;j++) {
+				System.out.print(" ");
+			}
+			for(int k=1;k<=(2*i-1);k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
+//2*i-1
+//2*1-1 = 1
+//2*2-1 = 3
+//2*3-1 = 5
